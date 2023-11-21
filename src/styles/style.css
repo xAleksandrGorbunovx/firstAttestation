@@ -1,13 +1,13 @@
 @font-face {
   font-weight: 400;
   font-family: Poppins;
-  src: url("../../assets/fonts/Poppins/Poppins-Regular.ttf") /*tried to write path relative to the file*/
+  src: url("../../assets/fonts/Poppins/Poppins-Regular.ttf");
 }
 
 @font-face {
   font-weight: 700;
   font-family: Poppins;
-  src: url("/assets/fonts/Poppins/Poppins-Bold.ttf"); /*tried to write path relative to the root*/
+  src: url("../../assets/fonts/Poppins/Poppins-Bold.ttf");
 }
 
 @font-face {
@@ -19,7 +19,7 @@
 @font-face {
   font-weight: 700;
   font-family: Jost;
-  src: url("/assets/fonts/Jost/Jost-Bold.ttf"); 
+  src: url("../../assets/fonts/Jost/Jost-Bold.ttf"); 
 }
 
 html {
@@ -209,6 +209,7 @@ button[grey-button] {
 }
 
 .image-first-page {
+
   margin-bottom: 162px;
   width: 595px;
   height: 595px;
