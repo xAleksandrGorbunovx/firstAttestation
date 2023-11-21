@@ -7,11 +7,10 @@
     <title>Steven's Design Portfolio</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="flex big-container-header">
+        <div class="flex Logo">UniDesign</div>
+        <nav class="flex">
             <ul class="flex container-nav">
-                <div class="flex Logo">UniDesign</div>
-                <div class="flex white-box-for-horizontal-alignment"></div>
                 <li><a href="#" class="flex nav-section-1">About Me</a></li>
                 <li><a href="#" class="flex nav-section-2">Projects</a></li>
                 <li><a href="#" class="flex nav-section-3">Contacts</a></li>
@@ -64,14 +63,13 @@
                 <img class="flex stylized-letter image-third-page" src="/assets/images/stylized letter.svg" alt="Unusual stylized letter A on a black background">
             </div>
         </section>
-        <div class="flex white-box-for-third-page"></div>
+        <div class="flex white-box-for-bottom-page"></div>
 
         <section class="section-fourth-page">
             <div class="flex first-container-fourth-page">
                  <h1 class="flex title-fourth-page">Contact Me</h1>
                  <h3 class="flex subtitle-fourth-page">Lorem Ipsum is simply dummy text of the printing</h3>
             </div>
-
             <div class="flex big-second-container-for-positioning-in-a-row">
                 <form class="flex second-container-fourth-page-block form">
                     <div class="flex form-input-email">
@@ -94,12 +92,45 @@
                 </div>
             </div>
         </section>
-
-
-
+        <div class="flex white-box-for-bottom-page"></div>
     </main>
     <footer>
-
+        <section class="section-footer">
+            <div class="flex container-footer">
+                <div class="flex first-container-footer-logo-Subscribe">
+                    <div class="flex Logo">UniDesign</div>
+                    <div class="flex subscription-container">
+                        <form class="subscription-form">
+                            <input pop class="add-email" type="email" placeholder="Email">
+                            <button class="submit-email" type="button">
+                                <span class="before-submit">Subscribe</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="flex container-footer-text">
+                    <h3 class="flex bold-text">Platform</h3>
+                    <div class="flex text">Home</div>
+                    <div class="flex text">Overview</div>
+                    <div class="flex text">Pricing</div>
+                    <div class="flex text">About</div>
+                </div>
+                <div class="flex container-footer-text">
+                    <h3 class="flex bold-text">Help</h3>
+                    <div class="flex text">How It Works?</div>
+                    <div class="flex text">Pay?</div>
+                    <div class="flex text">Question?</div>
+                    <div class="flex text">Contact?</div>
+                </div>
+                <div class="flex container-footer-text">
+                    <h3 class="flex bold-text">Contact</h3>
+                    <div class="flex text">(+000) 1234-6789</div>
+                    <div class="flex text">116 Archlor Road Broadlaband, NewYork (NYC) 1205</div>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="last-text-on-page">CopyRighted 2020-2023   All Rights Reserved.</div>
+        </section>
     </footer>
 </body>
 </html>
