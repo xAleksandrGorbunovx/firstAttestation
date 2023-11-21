@@ -107,8 +107,8 @@ body {
 
 .section-first-page{
   margin-top: 171px; /*align the section vertically*/
-    flex-wrap: wrap;
-    ustify-content: space-between;
+  flex-wrap: wrap;
+  justify-self: space-between;
 }
 
 .container-first-page {
@@ -209,7 +209,6 @@ button[grey-button] {
 }
 
 .image-first-page {
-  margin-right: 65px;
   margin-bottom: 162px;
   width: 595px;
   height: 595px;
@@ -468,11 +467,18 @@ button[contact-button] {
   height: 220px;
 }
 
-.first-container-footer-logo-Subscribe .Logo {
+.first-container-footer-logo-Subscribe .Logo-footer {
   font-family: Poppins;
   letter-spacing: 0.35em;
   width: 386px;
   height: 3rem;
+
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3rem;
+
+  color: #0E0578;
+  margin-top: 20px;
 }
 
 .subscription-container {
